@@ -1,1 +1,27 @@
-hello world
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>学习任务表</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>学习任务表</h2>
+    <button id="addBtn" onclick="window.location.href='add.html'">新增任务</button>
+    <table id="taskTable">
+        <thead>
+            <tr>
+                <th>学习任务</th>
+                <th>开始时间</th>
+                <th>结束时间</th>
+                <th>剩余天数</th>
+                <th>完成度</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody id="taskBody">
+        </tbody>
+    </table>
+    <script src="javascript.js"></script>
+</body>
+</html>
